@@ -1,11 +1,14 @@
 import React from "react";
-import Welcome from "./components/Welcome";
+import Home from "./components/Home";
+import Navigation from "./components/Navigation";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/Main.css";
 
 const App = () => {
   return (
     <>
-      <Welcome />
+      <Navigation />
+      {/* <Home /> */}
     </>
   );
 }
